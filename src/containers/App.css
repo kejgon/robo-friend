@@ -1,0 +1,28 @@
+body{
+ font-family:monospace;
+ background: rgb(46,40,153);
+background: linear-gradient(90deg, rgba(46,40,153,0.31976540616246496) 0%, rgba(25,223,174,0.7483368347338936) 42%, rgba(0,212,255,1) 100%);
+    
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #65d6ce; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #65d6ce; 
+  }
